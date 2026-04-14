@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Core Pages -->
+  <url>
+    <loc>https://www.valakienterprise.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.valakienterprise.com/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.valakienterprise.com/products.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.valakienterprise.com/contact.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Product Category Pages -->
+  <url>
+    <loc>https://www.valakienterprise.com/product/products-hex-bolt.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.valakienterprise.com/product/products-hex-nut.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.valakienterprise.com/product/products-allen-cap.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.valakienterprise.com/product/products-allen-csk.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.valakienterprise.com/product/products-button-head.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.valakienterprise.com/product/products-grub-screw.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.valakienterprise.com/product/products-rivet.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.valakienterprise.com/product/products-screw.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.valakienterprise.com/product/products-washer.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.valakienterprise.com/product/products-weld-nut.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Allen Cap Screw Individual Pages -->
+  <url><loc>https://www.valakienterprise.com/product/Allen_cap/Allen_cap_12_9.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/Allen_cap/Allen_cap_A4.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/Allen_cap/Allen_cap_A6.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/Allen_cap/Allen_cap_A7.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/Allen_cap/Allen_cap_Low_Head.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/Allen_cap/Allen_cap_MS.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/Allen_cap/Allen_cap_Socket_Low_Head.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/Allen_cap/Allen_cap_SS.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/Allen_cap/Allen_cap_Zinc.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Allen CSK Individual Pages -->
+  <url><loc>https://www.valakienterprise.com/product/allen-csk/products-10.9.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/allen-csk/products-a2.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/allen-csk/products-csk-ss.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/allen-csk/products-ss304.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Hex Bolt Individual Pages -->
+  <url><loc>https://www.valakienterprise.com/product/products-hex-bolt/Hex_Bolt_Standard.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-hex-bolt/Hex_Bolt_High_Tensile.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-hex-bolt/Hex_Bolt_SS.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-hex-bolt/Flange_Bolt_Heavy_Duty.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-hex-bolt/Flange_Bolt_Serrated.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-hex-bolt/Hex_Flange_Bolt_Standard.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-hex-bolt/Combi_Hex_Bolt_SS.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-hex-bolt/SEMS_Screw_Hex_Head.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Hex Nut Individual Pages -->
+  <url><loc>https://www.valakienterprise.com/product/products-hex-nut/Hex_Nut_Standard.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-hex-nut/Hex_Nut_High_Tensile.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-hex-nut/Hex_Nut_SS.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-hex-nut/Nylock_Nut_MS.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-hex-nut/Nylock_Nut_SS.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-hex-nut/Dome_Nut.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-hex-nut/Dome_Nut_SS.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-hex-nut/Wing_Nut_MS.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-hex-nut/Wing_Nut_SS.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Button Head Individual Pages -->
+  <url><loc>https://www.valakienterprise.com/product/products-button-head/Button_Head_Allen.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-button-head/Button_Head_Flange.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-button-head/Button_Head_SS.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Grub Screw Individual Pages -->
+  <url><loc>https://www.valakienterprise.com/product/products-grub-screw/Grub_Cup_Point.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-grub-screw/Grub_Cone_Point.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-grub-screw/Grub_Flat_Point.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-grub-screw/Grub_Dog_Point.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-grub-screw/Grub_Oval_Point.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-grub-screw/Grub_Half_Dog.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-grub-screw/Grub_Knurled_Cup.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-grub-screw/Grub_Nylon_Tip.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Rivet Individual Pages -->
+  <url><loc>https://www.valakienterprise.com/product/products-rivet/aluminium-rivet.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-rivet/steel-rivet-ms.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-rivet/pop-rivet-standard.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-rivet/pop-rivet-stainless-steel.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-rivet/closed-end-rivet.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-rivet/large-flange-rivet.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-rivet/multi-grip-rivet.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-rivet/drive-rivet.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Screw Individual Pages -->
+  <url><loc>https://www.valakienterprise.com/product/products-screw/self-tapping-screw.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-screw/wood-screw.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-screw/drywall-screw.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-screw/chipboard-screw.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-screw/machine-screw.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-screw/pan-head-screw.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-screw/roofing-screw.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Washer Individual Pages -->
+  <url><loc>https://www.valakienterprise.com/product/products-washer/flat-washer.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-washer/spring-washer.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-washer/penny-washer.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-washer/square-washer.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-washer/conical-washer.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-washer/repair-washer.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-washer/tab-washer.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Weld Nut Individual Pages -->
+  <url><loc>https://www.valakienterprise.com/product/products-weld-nut/hex-weld-nut.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-weld-nut/flange-weld-nut.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-weld-nut/spot-weld-nut.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-weld-nut/projection-weld-nut.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-weld-nut/round-base-weld-nut.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-weld-nut/square-weld-nut.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-weld-nut/tab-weld-nut.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.valakienterprise.com/product/products-weld-nut/stainless-weld-nut.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+</urlset>
