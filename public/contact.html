@@ -565,7 +565,7 @@ ${message || 'No additional message'}
   };
 
   try {
-    const res  = await fetch('http://localhost:5000/send-enquiry', {
+    const res  = await fetch('/send-enquiry', {
       method:  'POST',
       headers: { 'Content-Type': 'application/json' },
       body:    JSON.stringify(payload)
