@@ -33,48 +33,9 @@
 <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-<script src="include.js"></script>+
 <link rel="stylesheet" href="style.css">
 <style>
-*, *::before, *::after { box-sizing: border-box; }
-body { font-family: 'DM Sans', sans-serif; color: #1e293b; margin: 0; background: #f7f9fd; }
-section { overflow-x: hidden; }
 
-/* ── Navbar ── */
-.custom-navbar {
-  background: rgba(255,255,255,0.98); backdrop-filter: blur(3px);
-  padding: 12px 0; box-shadow: 0 2px 20px rgba(0,0,0,0.05); transition: 0.2s;
-}
-.custom-navbar.scrolled { box-shadow: 0 5px 25px rgba(0,0,0,0.1); }
-.btn-blue {
-  background: #1a6fdc; color: white; padding: 10px 22px; border-radius: 2px;
-  font-weight: 600; text-decoration: none; font-size: 0.76rem; transition: 0.2s; display: inline-block;
-}
-.btn-blue:hover { background: #155bb5; color: #fff; }
-.products-dropdown .products-menu {
-  min-width: 320px; padding: 0.75rem; border-radius: 16px;
-  box-shadow: 0 15px 40px rgba(0,0,0,0.12); border: 1px solid #eef2f8; margin-top: 10px; background: #fff;
-}
-.products-dropdown .dropdown-item { padding: 0.6rem 0.75rem; border-radius: 10px; transition: all 0.2s; }
-.products-dropdown .dropdown-item:hover { background: #f0f6fe; transform: translateX(5px); }
-.dropdown-product-item { display: flex; align-items: center; gap: 14px; }
-.dropdown-product-item img { width: 48px; height: 48px; object-fit: cover; border-radius: 10px; border: 1px solid #e9ecef; }
-.dropdown-product-item span { font-family: 'DM Sans', sans-serif; font-size: 0.88rem; font-weight: 600; color: #1e293b; }
-
-/* ── Page Hero ── */
-.page-hero {
-  background: linear-gradient(135deg, #0a2540 0%, #0f3b5c 100%);
-  padding: 140px 0 70px; text-align: center; color: #fff; position: relative; overflow: hidden;
-}
-.page-hero::before {
-  content: ''; position: absolute; inset: 0;
-  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E");
-}
-.page-hero-eyebrow { font-size:0.75rem; letter-spacing:0.22em; text-transform:uppercase; color:#7ec8f8; margin-bottom:14px; display:block; position:relative; z-index:1; }
-.page-hero h1 { font-size:3.2rem; font-weight:900; margin-bottom:16px; line-height:1.1; position:relative; z-index:1; }
-.page-hero p { font-size:1rem; opacity:0.8; max-width:520px; margin:0 auto; line-height:1.7; position:relative; z-index:1; }
-.hero-breadcrumb { margin-top:28px; display:flex; align-items:center; justify-content:center; gap:8px; font-size:0.78rem; opacity:0.65; position:relative; z-index:1; }
-.hero-breadcrumb a { color:#fff; text-decoration:none; }
 
 /* ── Filter Bar ── */
 .filter-bar {
@@ -186,7 +147,7 @@ section { overflow-x: hidden; }
   </a>
 </li>
 
-        <li class="nav-item"><a class="nav-link" href="asset/LOGO/gst-certificate-of-makdeal-enterprise.pdf" target="_blank">ISO Certification</a></li>
+        <li class="nav-item"><a class="nav-link" href="asset/LOGO/ISO-9001-2015 2026 CERTIFICATE.pdf" target="_blank">ISO Certification</a></li>
         <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
       </ul>
            
@@ -556,9 +517,12 @@ section { overflow-x: hidden; }
 <script>
 AOS.init({ duration: 700, once: true, offset: 60 });
 
-window.addEventListener('scroll', () => {
-  document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 80);
-});
+const navEl = document.getElementById('navbar');
+function updateNav() {
+  navEl.classList.toggle('scrolled', window.scrollY > 80);
+}
+updateNav(); // set correct state immediately on load
+window.addEventListener('scroll', updateNav);
 
 // Filter
 const pills   = document.querySelectorAll('.filter-pill');

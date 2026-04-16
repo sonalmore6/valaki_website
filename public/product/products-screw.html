@@ -21,64 +21,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../style.css">
 
-<style>
-*, *::before, *::after { box-sizing: border-box; }
-body { font-family: 'DM Sans', sans-serif; color: #1e293b; margin: 0; background: #f7f9fd; }
 
-.custom-navbar {
-  background: rgba(255,255,255,0.98); backdrop-filter: blur(3px);
-  padding: 12px 0; box-shadow: 0 2px 20px rgba(0,0,0,0.05);
-}
-.btn-blue {
-  background: #1a6fdc; color: white; padding: 10px 22px; border-radius: 2px;
-  font-weight: 600; text-decoration: none; font-size: 0.76rem;
-}
-.btn-blue:hover { background: #155bb5; color: #fff; }
-
-.products-page-section { padding: 80px 0 100px; }
-.section-intro { text-align: center; margin-bottom: 50px; }
-.section-intro h2 { font-size: 2.4rem; font-weight: 900; color: #0a1a2a; }
-.section-intro h2 span { color: #1a6fdc; }
-
-.prod-card {
-  background: #fff; border-radius: 20px; overflow: hidden;
-  box-shadow: 0 4px 18px rgba(0,0,0,0.06); transition: all 0.3s ease;
-  height: 100%; border: 1px solid #eef2f9; cursor: pointer;
-  display:flex; flex-direction:column;
-}
-.prod-card:hover { transform: translateY(-6px); box-shadow: 0 20px 35px rgba(26,111,220,0.12); border-color: #cde0fc; }
-.prod-card-img {
-  position: relative; overflow: hidden; background: #f5f8fe; height: 220px;
-  display: flex; align-items: center; justify-content: center;
-}
-.prod-card-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: inherit;
-    transition: transform 0.35s ease;
-    display: block;
-}
-.prod-card:hover .prod-card-img img { transform: scale(1.05); }
-.prod-body { padding: 18px 18px 20px;   flex:1; display:flex; flex-direction:column;
-}
-.prod-body h5 { font-size: 1.1rem; font-weight: 800; color: #0f172a; margin-bottom: 8px; }
-.prod-body p { font-size: 0.8rem; color: #64748b; line-height: 1.5; margin-bottom: 12px; }
-.spec-chips { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 12px; }
-.spec-chip { background: #f1f5fb; color: #1a6fdc; font-size: 0.65rem; font-weight: 600; padding: 3px 10px; border-radius: 20px; }
-.prod-footer { display: flex; align-items: center; justify-content: space-between; padding-top: 12px; border-top: 1px solid #f0f4fa;   margin-top:auto;
-}
-.btn-detail {
-  background: #1a6fdc; color: #fff; font-size: 0.72rem; font-weight: 700;
-  padding: 7px 16px; border-radius: 6px; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;
-}
-.btn-detail:hover { background: #155bb5; color: #fff; }
-.btn-wa {
-  background: #e8fdf0; color: #16a34a; font-size: 0.68rem; font-weight: 700;
-  padding: 6px 12px; border-radius: 6px; text-decoration: none; display: flex; align-items: center; gap: 5px;
-}
-.btn-wa:hover { background: #25d366; color: #fff; }
-
-</style>
 </head>
 <body>
 
@@ -104,7 +47,7 @@ body { font-family: 'DM Sans', sans-serif; color: #1e293b; margin: 0; background
   </a>
 </li>
 
-        <li class="nav-item"><a class="nav-link" href="../asset/LOGO/gst-certificate-of-makdeal-enterprise.pdf" target="_blank">ISO Certification</a></li>
+        <li class="nav-item"><a class="nav-link" href="../asset/LOGO/ISO-9001-2015 2026 CERTIFICATE.pdf" target="_blank">ISO Certification</a></li>
         <li class="nav-item"><a class="nav-link" href="../contact.html">Contact</a></li>
       </ul>
            
@@ -116,6 +59,20 @@ body { font-family: 'DM Sans', sans-serif; color: #1e293b; margin: 0; background
 </nav>
 
 <!-- PRODUCTS GRID - SCREWS -->
+
+<!-- PAGE HERO -->
+<section class="page-hero" data-watermark="PRODUCTS">
+  <div class="container" style="position:relative;z-index:1">
+    <div class="eyebrow">Our Products</div>
+    <h1>Industrial <span>Screws</span></h1>
+    <p class="hero-desc">A complete range of wood, machine, chipboard, drywall, roofing and pan-head screws.</p>
+    <div class="breadcrumb-custom">
+      <a href="../index.html">Home</a><span>/</span>
+      <a href="../products.html">Products</a><span>/</span>
+      <span class="current">Screws</span>
+    </div>
+  </div>
+</section>
 <section class="products-page-section">
   <div class="container">
     <div class="section-intro" data-aos="fade-up">
@@ -301,7 +258,7 @@ body { font-family: 'DM Sans', sans-serif; color: #1e293b; margin: 0; background
           <li><a href="../index.html"><i class="fas fa-house"></i> Home</a></li>
           <li><a href="../about.html"><i class="fas fa-user"></i> About Us</a></li>
           <li><a href="../products.html"><i class="fas fa-box"></i> Products</a></li>
-          <li><a href="../asset/LOGO/gst-certificate-of-makdeal-enterprise.pdf" target="_blank"><i class="fas fa-check-circle"></i> ISO Certification</a></li>
+          <li><a href="../asset/LOGO/ISO-9001-2015 2026 CERTIFICATE.pdf" target="_blank"><i class="fas fa-check-circle"></i> ISO Certification</a></li>
           <li><a href="../contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
         </ul>
       </div>
@@ -360,5 +317,7 @@ window.addEventListener('scroll', () => {
   document.querySelector('.custom-navbar').classList.toggle('scrolled', window.scrollY > 80);
 });
 </script>
+<script src="../../quote-modal.js"></script>
+
 </body>
 </html>
