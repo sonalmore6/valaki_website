@@ -1964,4 +1964,198 @@ body {
 .btn-outline-white { border: 1.5px solid rgba(255,255,255,0.5); color: #fff; font-weight: 600; font-size: 0.82rem; letter-spacing: 1.5px; text-transform: uppercase; padding: 14px 34px; border-radius: 2px; background: transparent; transition: 0.3s; text-decoration: none; }
 .btn-outline-white:hover { background: rgba(255,255,255,0.1); color: #fff; border-color: #fff; }
 
+/* ══════════════════════════
+   MOBILE-ONLY NAVBAR REDESIGN
+   (max-width: 991px)
+══════════════════════════ */
+@media (max-width: 991px) {
 
+  /* Navbar base */
+  .custom-navbar {
+    height: 64px !important;
+    padding: 0 16px !important;
+    background: rgba(10, 18, 35, 0.97) !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    position: fixed !important;
+  }
+  .custom-navbar::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent 0%, #c8860a 30%, #e8a020 50%, #c8860a 70%, transparent 100%);
+  }
+  .custom-navbar.scrolled {
+    background: rgba(8, 14, 28, 0.99) !important;
+  }
+
+  /* Logo sizing */
+  .custom-navbar .navbar-brand img {
+    height: 36px;
+  }
+
+  /* ── Hamburger Button ── */
+  .custom-navbar .navbar-toggler {
+    border: 1px solid rgba(200,134,10,0.35) !important;
+    background: rgba(200,134,10,0.08) !important;
+    border-radius: 10px !important;
+    width: 44px;
+    height: 44px;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .custom-navbar .navbar-toggler:focus {
+    box-shadow: none !important;
+    outline: none !important;
+  }
+
+  /* Top line */
+  .custom-navbar .navbar-toggler::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #e8a020;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+
+  /* Middle short offset line */
+  .custom-navbar .navbar-toggler::after {
+    content: '';
+    display: block;
+    width: 14px;
+    height: 2px;
+    background: #e8a020;
+    border-radius: 2px;
+    align-self: flex-end;
+    margin-right: 3px;
+    transition: all 0.3s ease;
+  }
+
+  /* Bottom line — reuse the existing span */
+  .custom-navbar .navbar-toggler-icon {
+    display: block !important;
+    width: 20px !important;
+    height: 2px !important;
+    background: #e8a020 !important;
+    background-image: none !important;
+    border-radius: 2px !important;
+    transition: all 0.3s ease;
+  }
+
+  /* ── Drawer Panel ── */
+  .custom-navbar .navbar-collapse {
+    background: #0a1223;
+    position: fixed !important;
+    top: 64px;
+    left: 0;
+    right: 0;
+    max-height: calc(100vh - 64px);
+    overflow-y: auto;
+    border-bottom: 1px solid rgba(200,134,10,0.2);
+    z-index: 9999;
+    padding: 0 !important;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+  }
+
+  /* Drawer top label strip */
+  .custom-navbar .navbar-collapse::before {
+    content: '— Navigation';
+    display: block;
+    padding: 14px 20px 10px;
+    font-size: 9px;
+    letter-spacing: 3px;
+    color: rgba(232,160,32,0.6);
+    text-transform: uppercase;
+    font-weight: 700;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+
+  /* ── Nav List ── */
+  .custom-navbar .navbar-nav {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    padding: 6px 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Each nav item */
+  .custom-navbar .nav-item {
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    position: relative;
+  }
+
+  /* Left gold accent bar */
+  .custom-navbar .nav-item::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 0;
+    background: #e8a020;
+    border-radius: 0 2px 2px 0;
+    transition: width 0.2s ease;
+  }
+  .custom-navbar .nav-item:hover::before {
+    width: 3px;
+  }
+
+  /* Nav link */
+  .custom-navbar .nav-link {
+    display: flex !important;
+    align-items: center !important;
+    padding: 15px 20px 15px 24px !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    letter-spacing: 2.5px !important;
+    text-transform: uppercase !important;
+    color: rgba(255,255,255,0.7) !important;
+    transition: color 0.2s ease, background 0.2s ease, padding-left 0.2s ease !important;
+  }
+  .custom-navbar .nav-link:hover,
+  .custom-navbar .nav-link.active {
+    color: #e8a020 !important;
+    background: rgba(200,134,10,0.07) !important;
+    padding-left: 28px !important;
+  }
+
+  /* Right arrow indicator */
+  .custom-navbar .nav-link::after {
+    content: '›';
+    margin-left: auto;
+    font-size: 20px;
+    color: rgba(255,255,255,0.15);
+    font-weight: 300;
+    line-height: 1;
+    transition: color 0.2s ease;
+  }
+  .custom-navbar .nav-link:hover::after,
+  .custom-navbar .nav-link.active::after {
+    color: rgba(232,160,32,0.5);
+  }
+
+  /* ── Get Quote Button inside drawer ── */
+  .custom-navbar .navbar-collapse .btn-blue {
+    display: block !important;
+    width: calc(100% - 40px) !important;
+    margin: 14px 20px 20px !important;
+    text-align: center !important;
+    border-radius: 6px !important;
+    padding: 14px !important;
+    font-size: 11px !important;
+    letter-spacing: 2px !important;
+    font-weight: 800 !important;
+    text-decoration: none !important;
+  }
+
+  /* Hide the desktop Get Quote button on mobile */
+  .custom-navbar .d-none.d-lg-inline-block {
+    display: none !important;
+  }
+
+}
