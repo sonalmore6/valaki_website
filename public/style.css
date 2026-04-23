@@ -2064,18 +2064,7 @@ body {
     box-shadow: 0 20px 40px rgba(0,0,0,0.6);
   }
 
-  /* Drawer top label strip */
-  .custom-navbar .navbar-collapse::before {
-    content: '— Navigation';
-    display: block;
-    padding: 14px 20px 10px;
-    font-size: 9px;
-    letter-spacing: 3px;
-    color: rgba(232,160,32,0.6);
-    text-transform: uppercase;
-    font-weight: 700;
-    border-bottom: 1px solid rgba(255,255,255,0.05);
-  }
+ 
 
   /* ── Nav List ── */
   .custom-navbar .navbar-nav {
@@ -2154,8 +2143,6 @@ body {
   }
 
   /* Hide the desktop Get Quote button on mobile */
-  .custom-navbar .d-none.d-lg-inline-block {
-    display: none !important;
-  }
+
 
 }

@@ -364,7 +364,7 @@ textarea.form-control { resize: vertical; min-height: 140px; }
             <div class="c-block-label">Working Hours</div>
             <div class="hours-row" style="padding-top:0"><span class="hours-day">Monday – Friday</span><span class="hours-time">9:00 AM – 6:00 PM</span></div>
             <div class="hours-row"><span class="hours-day">Saturday</span><span class="hours-time">9:00 AM – 2:00 PM</span></div>
-            <div class="hours-row"><span class="hours-day">Sunday</span><span class="hours-closed">Closed</span></div>
+            <div class="hours-row"><span class="hours-day">Sunday</span><span class="hours-time">9:00 AM – 6:00 PM</span></div>
           </div>
 
           <div class="contact-detail-block">
@@ -549,20 +549,16 @@ async function submitForm() {
   document.getElementById('successMsg').style.display = 'none';
   document.getElementById('errorMsg').style.display   = 'none';
 
-  const payload = {
+const payload = {
     name: name,
     phone: phone,
     email: email,
-    message: `
-Company: ${company || 'Not provided'}
-Product: ${product || 'Not specified'}
-Quantity: ${qty || 'Not specified'}
-Size/Grade: ${size || 'Not specified'}
-
-Message:
-${message || 'No additional message'}
-`
-  };
+    company: company || 'Not provided',
+    product: product || 'Not specified',
+    quantity: qty || 'Not specified',
+    size_grade: size || 'Not specified',
+    message: message || 'No additional message'
+};
 
   try {
     const res  = await fetch('/send-enquiry', {
@@ -589,6 +585,12 @@ ${message || 'No additional message'}
 }
 </script>
 <script src="../../quote-modal.js"></script>
+<script>
+// Navbar scroll: add solid background after scrolling past hero
+window.addEventListener('scroll', () => {
+  document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 80);
+});
+</script>
 
 </body>
 </html>

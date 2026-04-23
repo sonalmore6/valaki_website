@@ -16,8 +16,8 @@ app.get('/', (req, res) => {
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'sonalkmore06@gmail.com',       // 🔴 Your Gmail
-    pass: 'xlbr zflw hjkf vceo'        // 🔴 App Password
+    user: 'valakient@gmail.com',       // 🔴 Your Gmail
+    pass: 'orel kwhm ikzw ooqw'        // 🔴 App Password
     
   }
 });
@@ -32,8 +32,8 @@ app.post('/send-enquiry', async (req, res) => {
 
   try {
     const mailOptions = {
-      from: 'sonalkmore06@gmail.com',
-      to: 'sonalkmore06@gmail.com',
+      from: 'valakient@gmail.com',
+      to: 'valakient@gmail.com',
       subject: `New Enquiry from ${name} – Valaki Enterprise`,
       html: `
         <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;border:1px solid #ddd;border-radius:8px;overflow:hidden">
