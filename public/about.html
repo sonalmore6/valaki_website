@@ -46,7 +46,7 @@
 </nav>
 
 <!-- PAGE HERO -->
-<section class="page-hero"><div class="container" style="position:relative;z-index:1"><div class="eyebrow">Who We Are</div><h1>About <span>Valaki</span></h1><p class="hero-tagline" style="font-size:1.15rem;font-weight:600;letter-spacing:1px;color:var(--gold,#c9a84c);margin-bottom:10px;">House of Quality Fasteners</p><p>A decade of precision manufacturing, industrial strength and uncompromising quality from the heart of Nashik.</p><div class="breadcrumb-custom"><a href="index.html">Home</a><span>/</span><span class="current">About Us</span></div></div></section>
+<section class="page-hero"><div class="container" style="position:relative;z-index:1"><div class="eyebrow">Who We Are</div><h1>About <span>Valaki</span></h1><p  style="font-size:1.15rem;font-weight:600;letter-spacing:1px;color:var(--gold,#c9a84c);margin-bottom:10px;">House of Quality Fasteners</p><p>A decade of precision manufacturing, industrial strength and uncompromising quality from the heart of Nashik.</p><div class="breadcrumb-custom"><a href="index.html">Home</a><span>/</span><span class="current">About Us</span></div></div></section>
 
 <!-- ABOUT INTRO (shortened for brevity but intact structure) -->
 <section class="about-intro"><div class="container"><div class="row align-items-center g-5"><div class="col-md-6" data-aos="fade-right"><div class="about-img-wrap"><img src="asset/office.png" class="about-img" alt="Factory"><div class="exp-badge"><div class="num">10+</div><div class="lbl">Years of<br>Excellence</div></div></div></div><div class="col-md-6" data-aos="fade-left"><span class="section-tag">— Our Story</span><h2 class="section-h">Built on Strength,<br><span>Driven by Quality</span></h2><p class="about-para">Founded in 2014 by a team of passionate engineers, Valaki Enterprise set out to solve a simple problem: make high-quality industrial fasteners accessible to every manufacturer in India. Starting from a small workshop in Nashik, we have grown into a trusted name across construction, infrastructure and heavy industries.</p><ul class="check-list"><li><i class="fas fa-check"></i> ISO Certified Manufacturing Processes</li><li><i class="fas fa-check"></i> Advanced CNC Machinery & Automation</li></ul><a href="contact.html" class="btn-blue d-inline-block mt-4">Contact Us →</a></div></div></div></section>
@@ -163,15 +163,29 @@ const observer = new IntersectionObserver(e => { if (e[0].isIntersecting) startC
 observer.observe(document.querySelector('.stats-bar'));
 
 // ========== GALLERY DATA & DYNAMIC RENDERING ==========
+// const galleryItems = [
+//   { id: 1, category: "factory", img: "asset/IMG-20251205-WA0043.jpg", title: "Exhibition Gandhinagar", desc: "Pelican & Ebro" },
+//   { id: 2, category: "factory", img: "asset/Capture2.png", title: "Automated Production Line", desc: "Factory & Machines" },
+//   { id: 3, category: "quality", img: "asset/Capture.png", title: "Quality Lab & Inspection", desc: "Quality Control" },
+//   { id: 4, category: "quality", img: "asset/Capture1.png", title: "Dimensional Accuracy Test", desc: "Quality Control" },
+//   { id: 5, category: "teamwork", img: "asset/team.png", title: "Skilled Technicians", desc: "Team & Operations" },
+//   { id: 7, category: "factory", img: "asset/Capture4.png", title: "Advanced CNC Lathe", desc: "Factory & Machines" },
+//   { id: 8, category: "quality", img: "asset/Capture5.png", title: "Material Hardness Testing", desc: "Quality Control" },
+// ];
+
 const galleryItems = [
-  { id: 1, category: "factory", img: "asset/IMG-20251205-WA0043.jpg", title: "Exhibition Gandhinagar", desc: "Pelican & Ebro" },
-  { id: 2, category: "factory", img: "asset/Capture2.png", title: "Automated Production Line", desc: "Factory & Machines" },
-  { id: 3, category: "quality", img: "asset/Capture.png", title: "Quality Lab & Inspection", desc: "Quality Control" },
-  { id: 4, category: "quality", img: "asset/Capture1.png", title: "Dimensional Accuracy Test", desc: "Quality Control" },
-  { id: 5, category: "teamwork", img: "asset/team.png", title: "Skilled Technicians", desc: "Team & Operations" },
-  { id: 7, category: "factory", img: "asset/Capture4.png", title: "Advanced CNC Lathe", desc: "Factory & Machines" },
-  { id: 8, category: "quality", img: "asset/Capture5.png", title: "Material Hardness Testing", desc: "Quality Control" },
+  { id: 1, category: "factory", img: "asset/IMG-20251205-WA0043.jpg", title: "Exhibition Gandhinagar", desc: "Business Relations" },
+  { id: 2, category: "factory", img: "asset/Capture2.png", title: "Automated Manufacturing Facility", desc: "Factory & Machines" },
+  { id: 3, category: "quality", img: "asset/Capture.png", title: "Precision Quality Inspection Lab", desc: "Quality Control" },
+  { id: 4, category: "quality", img: "asset/Capture1.png", title: "Dimensional Accuracy Verification", desc: "Quality Control" },
+  { id: 5, category: "teamwork", img: "asset/team.png", title: "Expert Technical Workforce", desc: "Team & Operations" },
+  { id: 7, category: "factory", img: "asset/Capture4.png", title: "Advanced CNC Machining Center", desc: "Factory & Machines" },
+  { id: 8, category: "quality", img: "asset/Capture5.png", title: "Material Storage & Inventory Management", desc: "Warehouse & Logistics" },
 ];
+
+
+
+
 
 function renderGallery(filter = "all") {
   const grid = document.getElementById("galleryGrid");
@@ -241,5 +255,6 @@ document.querySelectorAll(".filter-btn").forEach(btn => {
 });
 renderGallery("all");
 </script>
+<script src="../../quote-modal.js"></script>
 </body>
 </html>
