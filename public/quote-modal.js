@@ -191,13 +191,24 @@
       const data = await res.json();
 
       if (data.success) {
-        document.getElementById('qmSuccess').style.display = 'block';
-        ['qmName','qmPhone','qmEmail','qmCompany','qmQty','qmSize','qmMessage'].forEach(id => {
-          document.getElementById(id).value = '';
-        });
-        btn.innerHTML = '<i class="fas fa-check" style="margin-right:8px"></i> Enquiry Sent!';
-        setTimeout(() => closeQuoteModal(), 1500);
-      } else {
+  const successEl = document.getElementById('qmSuccess');
+  successEl.style.display = 'block';
+
+  /* Scroll the modal box down so success msg is visible */
+  const box = document.querySelector('.qm-box');
+  if (box) {
+    box.scrollTo({ top: box.scrollHeight, behavior: 'smooth' });
+  }
+
+  ['qmName','qmPhone','qmEmail','qmCompany',
+   'qmQty','qmSize','qmMessage'].forEach(id => {
+    document.getElementById(id).value = '';
+  });
+
+  btn.innerHTML =
+    '<i class="fas fa-check" style="margin-right:8px"></i> Enquiry Sent!';
+  setTimeout(() => closeQuoteModal(), 2500);  /* give user time to read it */
+} else {
         document.getElementById('qmError').style.display = 'block';
         btn.disabled  = false;
         btn.innerHTML = '<i class="fas fa-paper-plane" style="margin-right:8px"></i> Send Enquiry';

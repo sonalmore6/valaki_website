@@ -1681,33 +1681,35 @@ body {
   .qm-header { padding: 18px 20px; }
 }
 @media (max-width: 520px) {
-  .qm-row { 
-    grid-template-columns: 1fr; 
-    gap: 0; 
+  .qm-row {
+    grid-template-columns: 1fr;
+    gap: 0;
   }
-  
-  .qm-body { padding: 20px 18px; }
+  .qm-body { padding: 20px 18px 16px; }
   .qm-header { padding: 18px 20px; }
-  
-  /* Tighten vertical spacing on mobile */
   .qm-group { margin-bottom: 12px; }
-  
-  /* Make the box scrollable if content overflows viewport */
+
   .qm-box {
     max-height: 90vh;
     overflow-y: auto;
+    scroll-behavior: smooth;   /* ← add this */
   }
-  
-  /* Slightly smaller input text on mobile */
+
   .qm-input, .qm-select, .qm-textarea {
-    font-size: 16px; /* Prevents iOS auto-zoom on focus */
+    font-size: 16px;
   }
-  
-  /* Reduce label spacing */
-  .qm-label {
-    letter-spacing: 1px;
+
+  .qm-label { letter-spacing: 1px; }
+
+  /* Keep success/error always visible — no clipping */
+  .qm-success, .qm-error {
+    position: sticky;
+    bottom: 0;
+    margin-top: 14px;
+    z-index: 10;
   }
 }
+Fi
 /* ================================================================
    PRODUCT PAGES — Responsive
    ================================================================ */
