@@ -2173,7 +2173,10 @@ Fi
   }
 
   /* Hide the desktop Get Quote button on mobile */
-
+.btn-cta-outline {
+      margin-top: 15px;
+    margin-left: 0px;
+}
 
 }
 
