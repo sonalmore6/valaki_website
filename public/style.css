@@ -1709,7 +1709,7 @@ body {
     z-index: 10;
   }
 }
-Fi
+
 /* ================================================================
    PRODUCT PAGES — Responsive
    ================================================================ */
@@ -2172,11 +2172,10 @@ Fi
     text-decoration: none !important;
   }
 
-  /* Hide the desktop Get Quote button on mobile */
-.btn-cta-outline {
+
+
+ .btn-cta-outline {
       margin-top: 15px;
     margin-left: 0px;
 }
-
 }
-
