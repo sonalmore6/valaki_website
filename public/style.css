@@ -216,7 +216,7 @@ body {
 /* ── VALAKI ENTERPRISE — Gold gradient ── */
 .hero-title {
   font-family: 'Playfair Display', serif;
-  font-size: clamp(2.6rem, 6.5vw, 6.8rem);
+  font-size: clamp(2rem, 5vw, 5rem);
   font-weight: 900;
   line-height: 1;
   letter-spacing: 8px;
